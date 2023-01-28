@@ -17,7 +17,7 @@
                                 ElementName=txtBox, 
                                 Path=Text, 
                                 Mode=TwoWay, 
-                                UpdateSourceTrigger=PropertyChanged}">
+                                UpdateSourceTrigger=LostFocus}">
             </TextBox>
             <TextBox x:Name="txtBox" 
                      FontSize="30"
