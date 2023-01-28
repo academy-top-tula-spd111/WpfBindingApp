@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Window.Resources>
-        <local:User x:Key="user" />
+        <local:User x:Key="user" Name="Bob" />
     </Window.Resources>
     <Grid>
         <StackPanel Width="300">
@@ -15,7 +15,7 @@
                        FontSize="30"
                        Text="{Binding 
                                 ElementName=txtBox, 
-                                Path=Text, 
+                                Path=Text,
                                 Mode=TwoWay, 
                                 UpdateSourceTrigger=LostFocus}">
             </TextBox>
